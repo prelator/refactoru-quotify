@@ -1,0 +1,276 @@
+#quote0 {
+	display: none;
+}
+
+#quote-form-container {
+	display: none;
+}
+
+body {
+	background-color: #3f92d2;
+	min-width: 875px;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #033e6b;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding-left: 50px;
+	border-bottom: 2px solid black;
+	z-index: 2;
+}
+
+h1 {
+	color: white;
+	font-style: italic;
+	font-size: 40px;
+	vertical-align: middle;
+}
+
+h2 {
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+}
+
+.form-toggle {
+	position: absolute;
+	height: 35px;
+	width: 110px;
+	top: 35px;
+	left: 210px;
+	z-index: 2;
+}
+
+.random{
+	position: relative;
+	height: 30px;
+	width: 140px;
+	top: -50px;
+	right: 10px;
+	z-index: 2;
+	float: right;
+}
+
+.yellow-button{
+	background-color: #f0cb11;	
+	border-radius: 40px;
+	border: 1px solid black;
+	outline: none;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom: 3px;
+	
+}
+
+.yellow-button:hover {
+	background-color: #f2ab1e;
+}
+
+.form-container {
+	width: 400px;
+	position: fixed;
+	top: 80px;
+	left: 100px;
+	background-color: rgba(3, 62, 107, 0.95);
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	z-index: 2;
+}
+
+.main-container {
+	background-color: white;
+	border-radius: 10px;
+	margin: 102px auto 10px auto;
+	border: 1px solid black;
+	padding: 10px 30px;
+	max-width: 60%;
+}
+
+label {
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-left: 10px;
+}
+
+h3 {
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	font-family: Georgia;
+	padding-bottom: 5px;
+}
+
+form {
+	padding: 5px;
+}
+
+input, textarea {
+	width: 90%;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	margin: 10px;
+}
+
+.green-button {
+	background-color: #83c41a;
+	height: 30px;
+	width: 80px;
+	border-radius: 40px;
+	border: 1px solid black;
+	outline: none;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom: 3px;
+	margin-left: 10px;
+}
+
+.green-button:hover {
+	background-color: #306108;
+}
+
+.red-button {
+	background-color: #c62d1f;
+	height: 30px;
+	width: 80px;
+	border-radius: 40px;
+	border: 1px solid black;
+	outline: none;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom: 3px;
+	margin-left: 10px;
+}
+
+.red-button:hover {
+	background-color: #810d05;
+}
+
+.small{
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	z-index: 1;
+}
+
+.quote-container {
+	margin: 10px;
+	background-color: #F0F8FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	min-height: 800px;
+}
+
+.option-bar {
+	background-color: #033e6b;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	top: -16px;
+	left: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	z-index: 0;
+}
+
+.inline-list li, .inline-list a {
+	display: inline-block;
+	color: white;
+	margin: 6px 3px;
+}
+
+.quote-wrapper {
+	position: relative;
+	max-width: 100%;
+	border-bottom: 2px solid gray;
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin: 20px 5px;
+	text-align: center;
+	padding: 2px 0;
+}
+
+blockquote {
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.author, .author a {
+	margin-bottom: 20px;
+	font-style: italic;
+	color: gray;
+	text-decoration: none;
+}
+
+.quote-num{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 18px;
+}
+
+.green {
+	background-color: #98FB98;	
+}
+
+.blue {
+	background-color: #60aed4;	
+}
+
+.lightbox-background{
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(105,105,105);
+	background-color: rgba(105,105,105,0.95);
+	z-index: 3;
+}
+
+.lightbox-container {
+	position: relative;
+	margin: 13% auto;
+	height: 60%;
+	width: 60%;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 3;
+	padding: 20px;
+	background-color: #033e6b;
+}
+
+.lightbox-content {
+	position: relative;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px auto;
+	z-index: 3;
+	width: 90%;
+	height: 90%;
+	background-color: #F0F8FF;
+	padding: 5px 20px;
+	overflow: auto;
+}
+
+.lightbox-button {
+	float: right;
+}

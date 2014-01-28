@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang = "en">
+<html lang = "en">
     <head>        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +33,7 @@
         </div>
         <div class="main-container"> <!-- Main container -->
             <h2>Welcome to Quotify!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+            <p>This is a site for posting your favorite quotes. Click the "Post Quote" button to post a quote.</p>
             <h2>Posted Quotes</h2>
             <div class="quote-container">
                 <div class="option-bar" id="quote-options">
@@ -44,23 +44,32 @@
                     </ul>
                     <button type="button" class="random yellow-button" id="random-quote">Random Quote</button>  
                 </div>            
-                <div id="quote-list">
-                    <div class="quote-wrapper" id="quote0"> <!-- Quote Prototype -->
+                <div id="prototype-quote-list">
+                    <div class="quote-wrapper" id="quote0">
                         <div class="quote-num">0</div>
                         <button type="button" class="red-button small delete-button">Delete</button>
                         <div class="quote-content">
                             <blockquote>"I want a pony!"</blockquote>
-                            <div class="author"><a class="author-link" href="#">Every little girl ever<a></div>                          
+                            <div class="author"><a class="author-link" href="#">Every little girl ever</a></div>                       
                         </div>
+                        <div class="rating">
+                            <span class="star-rating">
+                                <input type="radio" name="rating" value="1"><i></i>
+                                <input type="radio" name="rating" value="2"><i></i>
+                                <input type="radio" name="rating" value="3"><i></i>
+                                <input type="radio" name="rating" value="4"><i></i>
+                                <input type="radio" name="rating" value="5"><i></i>
+                            </span>                               
+                        </div>
+                        <p class="rating-display">Click a star to rate this quote.</p>
                     </div>
-                    
-                     
-
+                </div>
+                <div id="quote-list"> <!-- Main quote list -->
             
                 </div> <!-- End quote list -->
             </div> <!-- End quote container	 -->
     	</div> <!-- End main container -->
-	    <div class="lightbox-background">
+	    <div class="lightbox-background" id="lb-background">
             <div class="lightbox-container">
                 <div class="lightbox-content" id="lightbox-content">                
                 </div>
